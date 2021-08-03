@@ -1,4 +1,4 @@
-package com.xx1196.rickandmorty
+package com.xx1196.rickandmorty.ui.viewHolders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

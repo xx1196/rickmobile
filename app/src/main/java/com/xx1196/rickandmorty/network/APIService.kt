@@ -1,4 +1,4 @@
-package com.xx1196.rickandmorty
+package com.xx1196.rickandmorty.network
 
 import com.xx1196.rickandmorty.models.DataRickAndMorty
 import retrofit2.Response

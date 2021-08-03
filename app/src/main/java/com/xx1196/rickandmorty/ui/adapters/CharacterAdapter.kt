@@ -1,8 +1,10 @@
-package com.xx1196.rickandmorty
+package com.xx1196.rickandmorty.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.xx1196.rickandmorty.ui.viewHolders.CharacterViewHolder
+import com.xx1196.rickandmorty.R
 import com.xx1196.rickandmorty.models.RickAndMorty
 
 class CharacterAdapter(private val characters: List<RickAndMorty>) :

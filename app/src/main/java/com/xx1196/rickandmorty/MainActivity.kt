@@ -2,15 +2,14 @@ package com.xx1196.rickandmorty
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.xx1196.rickandmorty.databinding.ActivityMainBinding
 import com.xx1196.rickandmorty.models.RickAndMorty
+import com.xx1196.rickandmorty.network.APIService
+import com.xx1196.rickandmorty.ui.adapters.CharacterAdapter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
